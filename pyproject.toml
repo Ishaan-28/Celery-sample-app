@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "celery-worker"
+version = "0.1.0"
+description = "A simple Celery worker with Redis message broker"
+authors = ["Your Name <your@email.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+celery = "5.4.0"
+redis = ">=4.5.5"
+
+[tool.poetry.dev-dependencies]
